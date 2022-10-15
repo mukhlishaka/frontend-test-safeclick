@@ -4,7 +4,7 @@ export const InfoContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
     position: relative;
 `;
 
@@ -30,9 +30,8 @@ export const TextWrapper1 = styled.div`
 `;
 
 export const Heading = styled.h1`
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
-    color: #9b4aba;
 
     @media screen and (max-width: 768px) {
         font-size: 24px;
@@ -53,7 +52,7 @@ export const SubHeading = styled.p`
 
 export const SubHeadingNum = styled.h2`
     font-weight: 900;
-    font-size: 36px;
+    font-size: 40px;
     color: #9b4aba;
     margin-top: 20px;
 

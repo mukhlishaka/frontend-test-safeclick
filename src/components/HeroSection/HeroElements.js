@@ -25,7 +25,7 @@ export const HeroContent = styled.div`
     align-items: center;
 
     @media screen and (max-width: 768px) {
-        display: block;
+        flex-direction: column;
     }
 `;
 
@@ -62,11 +62,11 @@ export const TextWrapper = styled.div`
 
 export const Heading = styled.h1`
     margin-bottom: 24px;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
 
     @media screen and (max-width: 768px) {
-        font-size: 24px;
+        font-size: 30px;
     }
 `;
 
