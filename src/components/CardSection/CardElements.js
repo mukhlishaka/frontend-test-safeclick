@@ -51,7 +51,7 @@ export const CardRow = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto 200px;
+    margin: auto 150px;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
